@@ -1,16 +1,50 @@
-body{
+body {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
+	background-color: #555;
 }
 
-hr{
-	max-width: 75%;
+.topic {
+	display: flex;
+	height: 50vh;
+	background-color: #222;
+	align-items: center;
+	justify-content: center;
+}
+
+.topic h1 {
+	color: #555;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 23px;
+}
+
+.container {
+	margin: 10px;
+}
+
+.container .information {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 50vh;
+}
+
+.container .information .box {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.container .information .box h1{
+	font-size: 23px;
 }
 
 .bg-img{
-    background: url("https://9to5mac.files.wordpress.com/2016/11/color-burst-2.jpg?quality=82&strip=all") no-repeat;
+    background: url("https://img00.deviantart.net/a2ea/i/2008/219/c/d/hex___green_by_turnip_stew.jpg") no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,13 +52,17 @@ hr{
     height: 50vw;
 }
 
+.bg-img{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .bg-img img{
-	margin-left: 41vw;
-	margin-top: 20vh;
-	border-radius: 140px;
-	width: 280px;
-	height: 280px;
-	transition: .3s;
+	max-width: 15%;
+	border-radius: 100%;
+	transition: 0.3s;
 }
 
 .bg-img img:hover{
@@ -33,10 +71,7 @@ hr{
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 
-
 .bg-img h1{
-	margin-left: 37vw;
-	margin-top: 10vh;
 	background-color: rgba(0,0,0,0.5);
 	color: #fff;
 	padding: 30px;
@@ -46,34 +81,12 @@ hr{
 	text-transform: uppercase;
 }
 
-.container {
+.topic2{
 	display: flex;
+	height: 50vh;
+	background-color: #fff;
+	align-items: center;
 	justify-content: space-around;
-	flex-wrap: wrap;
-	margin: 4% 15%;
-}
-
-.box {
-	height: 1%;
-	width: 40%;
-	border-radius: 5px; 
-	background-color: #f1f2f6;
-	margin-bottom: 5%;
-	box-shadow: 1px 3px rgba(0,0,0,0.2);
-	
-}
-
-.box .title {
-	text-align: center;
-	font-size: 12px;
-	letter-spacing: 2px;
-}
-
-.box .content ul{
-	font-size: 18px;
-	text-align: left;
-	list-style-type: none;
-	line-height: 35px;
 }
 
 input[type=text] {

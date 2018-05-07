@@ -3,10 +3,48 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
-	background-color: #555;
 }
 
-.topic {
+.my-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Amatic SC', cursive;
+	font-size: 17px;
+}
+
+
+.container-flex {
+	display: flex;
+	background-color: white;
+}
+
+.my-photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vh;
+}
+
+.my-photo img {
+	margin-left: 15vw;
+	width: 35%;
+	border-radius: 100%;
+}
+
+.about-me {
+	align-self: center;
+	background-color: black;
+	color: #fff;
+	height: 50%;
+	width: 50%;
+	padding: 10px;
+	
+}
+
+/*topic {
 	display: flex;
 	height: 50vh;
 	background-color: #222;
@@ -21,9 +59,7 @@ body {
 	font-size: 23px;
 }
 
-.container {
-	margin: 10px;
-}
+
 
 .container .information {
 	display: flex;
@@ -119,4 +155,4 @@ input[class=msg] {
 .btn:hover {
 	background-color: rgba(46, 213, 115,0.7);	
 	transition: .3s;
-}
+}*/

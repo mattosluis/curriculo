@@ -33,7 +33,6 @@ body {
 
 .container-flex-2 {
 	display: flex;
-	background-color: white;	
 	flex-wrap: wrap;
 }
 
@@ -49,12 +48,12 @@ body {
 	margin-left: 15vw;
 	width: 35%;
 	border-radius: 100%;
-	transition: 0.3s;
+	transition: 0.4s;
 }
 
 .my-photo img:hover {
 	transform: scale(1.10);
-	transition: .3s;
+	transition: .5s;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 
@@ -80,7 +79,6 @@ body {
 
 .tecnologies {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
@@ -94,6 +92,7 @@ body {
 .tecnologies .linguagens{
 	display: flex;
 	width: 100%;
+
 }
 
 .linguagem {
@@ -110,6 +109,12 @@ body {
 	background-size: 100%;
 	width: 16px;
 	height: 16px;
+	transition: .2s;
+}
+
+.rank-active:hover {
+	transition: .1s;
+	transform: scale(1.20);
 }
 
 .rank {
@@ -119,120 +124,24 @@ body {
 	height: 16px;
 }
 
-.stars {
+.stars{
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 }
-/*topic {
+
+.contact{
 	display: flex;
-	height: 50vh;
-	background-color: #222;
-	align-items: center;
-	justify-content: center;
-}
-
-.topic h1 {
-	color: #555;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 23px;
-}
-
-
-
-.container .information {
-	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
-	align-items: center;
+	text-align: center;
+	width: 100vw;
 	height: 50vh;
 }
 
-.container .information .box {
-	text-align: center;
-	color: white;
-	font-size: 18px;
+.contact .header{
+	align-self: center;
 }
 
-.container .information .box h1{
-	font-size: 23px;
+.contact .content{
+	align-self: center;
 }
-
-.bg-img{
-    background: url("https://img00.deviantart.net/a2ea/i/2008/219/c/d/hex___green_by_turnip_stew.jpg") no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vw;
-}
-
-.bg-img{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.bg-img img{
-	max-width: 15%;
-	border-radius: 100%;
-	transition: 0.3s;
-}
-
-.bg-img img:hover{
-	transform: scale(1.25);
-	transition: .3s;
-	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
-}
-
-.bg-img h1{
-	background-color: rgba(0,0,0,0.5);
-	color: #fff;
-	padding: 30px;
-	width: 400px;
-	text-align: center;
-	letter-spacing: 12px;
-	text-transform: uppercase;
-}
-
-.topic2{
-	display: flex;
-	height: 50vh;
-	background-color: #fff;
-	align-items: center;
-	justify-content: space-around;
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 12px;
-    margin: 2% 0;
-    box-sizing: border-box;
-}
-
-input[class=msg] {
-    width: 100%;
-    padding: 40px 20px;
-    margin: 2% 0;
-    box-sizing: border-box;
-}
-
-.btn {
-    width: 100%;
-    padding: 12px;
-	text-decoration: none;
-    color: #fff;
-    background-color: #2ed573;
-    text-align: center;
-    letter-spacing: .5px;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.btn:hover {
-	background-color: rgba(46, 213, 115,0.7);	
-	transition: .3s;
-}*/

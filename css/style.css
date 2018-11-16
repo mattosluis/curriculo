@@ -34,7 +34,7 @@ body {
 }
 
 .my-photo img {
-	width: 300px;
+	width: 220px;
 	border-radius: 50%;
 	transition: 0.4s;
 }

@@ -55,6 +55,7 @@ body {
 .about-me .title {
 	text-align: center;
 	font-size: 30px;
+	padding: 25px 0 ;
 }
 
 .about-me .content-about {
@@ -62,10 +63,14 @@ body {
 	font-size: 20px;
 }
 
+.about-me .content-about p {
+	padding: 8px;
+}
+
 .tecnologies {
 	display: flex;
 	flex-direction: column;
-	margin: 80px 0;
+	margin: 40px 0;
 	margin-bottom: 20px;
 }
 
@@ -76,12 +81,13 @@ body {
 
 .tecnologies .linguagens{
 	display: flex;
-
+	padding: 20px 0;
 }
 
 .linguagem {
 	flex: 50%;
 	text-align: center;
+	padding: 10px 0;
 }
 
 .linguagem p{
@@ -136,6 +142,7 @@ body {
 .content p {
 	margin-left: 20px;
 	font-size: 25px;
+	padding: 40px 0;
 }
 
 .wrapper {
